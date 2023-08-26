@@ -1,0 +1,21 @@
+.notificationsDeopdown{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 20rem;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 5px;
+    background-color: #FFFAF9;
+}
+.notifications{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.notifications>li{
+    font: inherit;
+    font-size: 0.9rem;
+    list-style: none;
+    padding: 12px 0;
+}

@@ -1,0 +1,40 @@
+.commentInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.commentList{
+    margin-top: 1rem;
+    width: 100%;
+}
+.comment{
+    list-style: none;
+    width: 30rem;
+    padding: 1rem;
+   
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+}
+.commentUserPic{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+.commentedUserDetails{
+    width: 100%;
+    background-color: #222327;
+    padding: 8px;
+    border-radius: 10px;
+}
+.commentedUserDetails > h5{
+    
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+.date{
+    margin-top: 0.3rem;
+    font-size: 0.6rem!important;
+    color: rgb(169, 169, 169);
+}

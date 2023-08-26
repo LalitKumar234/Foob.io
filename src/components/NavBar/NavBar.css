@@ -1,0 +1,154 @@
+.navBar-container {
+    position: fixed;
+    background: rgba( 30, 29, 34, 0.5 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    z-index: 200;
+    color: #989BA4;
+
+}
+.logo{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1rem 2.5rem;
+    align-items: center;
+
+
+}
+
+.rightNav,
+.leftNav {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middleNav {
+    margin: 0 1rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.searchBox {
+    display: flex;
+    align-items: center;
+    background-color: #222327;
+    width: 100%;
+    height: 100%;
+    max-width: 15rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    gap: 10px;
+    color: #989BA4;
+}
+
+input {
+    width: 100%;
+    background-color: #222327;
+    color: #989BA4;
+    border: none;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+input:focus {
+    outline: none;
+}
+
+.btn-primary {
+    background-color: #FE7B77;
+    border: none;
+    padding: 0.7rem 1.7rem;
+    height: 3rem;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-disable {
+    background-color: #6a6a6a;
+    border: none;
+    height: 3rem;
+    padding: 0.7rem 1.7rem;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    cursor: no-drop;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary:hover {
+    background-color: #fd635e;
+}
+
+.userProfile {
+    width: 100%;
+    max-width: 9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.userAvatar {
+    background-color: #fd635e;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    border-radius: 40%;
+}
+
+.userAvatar>img {
+    width: 35px;
+    height: 35px;
+}
+
+.bell {
+    cursor: pointer;
+    position: relative;
+}
+
+.notify {
+    position: absolute;
+    top: -0.2rem;
+    right: 0.1rem;
+    width: 0.5rem;
+    height: 0.5rem;
+    color: white;
+    background-color: #fd635e;
+    border: 3.5px solid #1E1D22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.notify>p {
+    font-size: 0.7rem;
+    font-weight: 500;
+}

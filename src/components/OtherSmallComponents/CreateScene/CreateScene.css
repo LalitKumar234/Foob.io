@@ -1,0 +1,107 @@
+.createSceneContainer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 500;
+    display: flex;
+    justify-content: center;
+    color: #989BA4;
+
+}
+.createSceneCard{
+    margin-top: 2rem;
+    background-color: #222327;
+    max-width: 35rem;
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+}
+.cardHeader{
+    margin: 0.5rem 0;
+    /* border-bottom: 1.5px solid #e6e4e4; */
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: #989BA4;
+    
+}
+.userDetails_tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tagSection{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.tagSection > label{
+    margin-right: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+select{
+    cursor: pointer;
+    outline: none;
+    border: 2px solid rgb(197, 196, 196);
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+select:focus, select:hover{
+    border: 2px solid #fd635e;
+    border-radius: 5px;
+}
+option:hover{
+    background-color: #fd635e!important;
+}
+.dropdown{
+    font: inherit;
+    background-color: #222327;
+    color: #989BA4;
+}
+.closeIcon path{
+    cursor: pointer;
+    stroke: #989BA4;
+    
+}
+.cardBody{
+    
+    padding: 1.5rem;
+}
+.imageUploadingSection{
+    height: 10rem;
+}
+.inputElement{
+    margin-top: 1.5rem;
+}
+.inputElement > input{
+    font-size: 0.9rem;
+}
+.cardFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.createSceneIcons{
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(105, 105, 105);
+}
+.icon{
+    cursor: pointer;
+}
+/* .previewImage{
+    width: 8rem;
+    height: 8rem;
+} */
+.uploadedImage{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    margin-top: 1rem;
+}

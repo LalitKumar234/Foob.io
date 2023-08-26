@@ -1,0 +1,39 @@
+.sideNav_container{
+    position: fixed;
+    top: 6rem;
+    width: auto;
+    height: 50rem;
+    max-width: 16rem;
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+    background-color: #1E1D22;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 15px;
+    color: #989BA4;
+}
+.sideNavHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sideNavHeading > h2{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+.jokes{
+    margin-top: 2.5rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    height: 100%;
+    /* max-height: 34rem; */
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.jokes li{
+    border-bottom: 0.5px solid white;
+    padding-bottom: 1rem;
+    font-size: 0.9rem;
+}

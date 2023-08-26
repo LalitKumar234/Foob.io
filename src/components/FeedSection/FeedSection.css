@@ -1,0 +1,127 @@
+.wrapper{
+    margin:0 auto; 
+    width:1920px; 
+    min-height:100vh;
+    
+}
+.feedContainer{
+    margin-top: 6rem;
+    margin-left: 18rem;
+    max-width: 50rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 1rem;
+    color: #989BA4;
+    /* border: 1px solid black; */
+    
+}
+.feed{
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 15px;
+    background-color: #1E1D22;;
+    /* border: 1px solid red; */
+}
+.userDetails{
+    display: flex;
+    gap: 20px;
+}
+.userStatus>p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.tags{
+    margin-top: 10px;
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+}
+.tag{
+    font-size: 0.8rem;
+    padding: 3px 20px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 600;
+}
+#politics{
+    background-color: #7E74F8;
+}
+#news{
+    background-color: #FEA94F;
+}
+#funny{
+    background-color: #7BC133;
+}
+.userName{
+    font-size: 0.9rem;
+}
+.feedImage{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.feedImage>img{
+    border-radius: 15px;
+    width: 100%;
+    object-fit:cover;
+    
+}
+.feedFooter{
+    margin-top: 1.5rem;
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+.like_comment{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.like{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+.like:hover{
+    background-color: rgb(253, 202, 202);
+    color: rgb(255, 72, 72);
+}
+.like_comment > p{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.scenePost{
+    width: 20rem;
+    height: auto;
+}
+.commentSection{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+}
+.comment-input{
+    width: 32rem;
+    border: 1px solid #e6e4e4;
+    border-radius: 10px;
+    height: 2.5rem;
+    padding: 0 1rem;
+}

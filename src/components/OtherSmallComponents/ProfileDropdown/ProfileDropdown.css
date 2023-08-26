@@ -1,0 +1,44 @@
+.ProfileDropDown{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    height: 12rem;
+    width: 10rem;
+    /* z-index: 1000; */
+}
+.profileSettings{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 5px;
+    background-color: #FFFAF9;
+
+    
+}
+.profileSettings>li{
+    width: 100%;
+    height: 100%;
+    font: inherit;
+    list-style: none;
+    font-size: 0.9rem;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    
+}
+.profileSettings>li:hover{
+    background-color: #f4f2f2;
+}
+.profile{
+    width: 100%;
+    margin: 0 1.5rem;
+    display: flex;
+    align-items: center;
+}
+.profile > p{
+    margin-left: 0.5rem;
+}

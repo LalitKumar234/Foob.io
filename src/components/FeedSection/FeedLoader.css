@@ -1,0 +1,73 @@
+.feedLoader{
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loaderHeader{
+    display: flex;
+    justify-content: space-between;
+    width: 23rem;
+    height: 3rem;
+}
+
+.animated-background {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background-color: #989BA4;
+    background: linear-gradient(to right, #989BA4 8%, #bbbbbb 18%, #989BA4 33%);
+    background-size: 800px 110px;
+    position: relative;
+    height: 100%;
+  }
+  .profilPicLoader{
+    width: 35px;
+    height: 35px;
+    border-radius: 40%;
+    overflow: hidden;
+  }
+  .profileNameLoader{
+    width: 20rem;
+    height: 2rem;
+    overflow: hidden;
+    border-radius: 20px;
+
+  }
+  .feedLoaderBody{
+    width: 100%;
+    border-radius: 35px;
+    overflow: hidden;
+    height: 20rem;
+
+  }
+  .likesLoader{
+    width: 5rem;
+    height: 1.5rem;
+  }
+/* .animated-background {
+    width: 100%;
+    height: 15px;
+    display: block;
+    background: linear-gradient(🅑 to right,
+            rgba(255, 255, 255, 0),
+            rgba(255, 255, 255, 0.5) 50%,
+            rgba(255, 255, 255, 0) 80%),
+        rgb(255, 255, 255);
+    background-repeat: repeat-y;
+    background-size: 50px 200px;
+    background-position: 0 0;
+    height: 30rem;
+} */
+
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -800px 0
+    }
+
+    100% {
+        background-position: 800px 0
+    }
+}

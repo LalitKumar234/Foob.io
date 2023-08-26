@@ -14,8 +14,8 @@ Welcome to **Foob**, your new favorite social media platform built with React.js
 
 ## 🛠️ Installation
 
-1. Clone the repository: `git clone https://github.com/LalitKumar234/social-media-app.git`
-2. Navigate to the project directory: `cd social-media-app`
+1. Clone the repository: `git clone https://github.com/LalitKumar234/Foob.io.git`
+2. Navigate to the project directory: `cd Foob.io`
 3. Install dependencies: `npm install`
 4. Create a Firebase project and set up Google Authentication.
 5. Copy your Firebase configuration to `src/firebaseConfig.js`.
@@ -28,6 +28,9 @@ We welcome contributions from everyone! Feel free to open issues and pull reques
 ## 🎨 Screen Shots
 
 <img width="1470" alt="image" src="https://github.com/LalitKumar234/social-media-app/assets/64685787/8d14453a-30c9-444b-b3a7-ce805c4fdc0a">
+
+![Uploading image.png…]()
+
 
 ---
 

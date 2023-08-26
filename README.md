@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="project_logo.png" alt="Project Logo" width="200" height="200">
-</div>
-
 # Foob.io - Connect, Share, Interact!
 
 Welcome to **Foob**, your new favorite social media platform built with React.js and Firebase. This dynamic application allows users to create posts, like or dislike posts, and engage in lively discussions through comments. With seamless Google Authentication integration, joining the conversation has never been easier!

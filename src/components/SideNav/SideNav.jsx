@@ -9,7 +9,7 @@ const SideNav = () => {
     const getJokes = async () => {
         const res = await axios.get(endPoint, {
             headers: {
-                "X-Api-Key": "i7jthkOQNIOuw8vLu5Lsiw==kD7e1Dk4iTBAZsb4"
+                "X-Api-Key": "Your API Key"
             }
         })
         setJokes(res.data)

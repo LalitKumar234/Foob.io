@@ -29,7 +29,8 @@ We welcome contributions from everyone! Feel free to open issues and pull reques
 
 <img width="1470" alt="image" src="https://github.com/LalitKumar234/social-media-app/assets/64685787/8d14453a-30c9-444b-b3a7-ce805c4fdc0a">
 
-![Uploading image.png…]()
+<img width="1470" alt="image" src="https://github.com/LalitKumar234/Foob.io/assets/64685787/fbaecd80-28c0-4edd-b5bb-0924e38b5abf">
+
 
 
 ---
